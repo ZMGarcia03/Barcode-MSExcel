@@ -6,8 +6,8 @@ Sub GenerateBarcode()
     Set selectedCell = Application.InputBox("Select a cell containing the text or link:", Type:=8)
     cellValue = selectedCell.Value
 
-    ' Set the font to Code128
-    selectedCell.Font.Name = "Code128"
+    ' Set the font to Code 128
+    selectedCell.Font.Name = "Code 128"
 
     ' Set the value to the same value, which will display the barcode
     selectedCell.Value = cellValue
