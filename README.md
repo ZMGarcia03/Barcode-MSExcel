@@ -1,5 +1,5 @@
 # Barcode-MSExcel
-This [VBA macro code](Barcode.vba) generates a barcode of the given text or link in a specified cell in MS Excel using the [`Code128`](https://github.com/ZMGarcia03/Barcode-MSExcel/releases/download/Font/code_128.zip) font. The macro prompts the user to select a cell containing the text or link. It then sets the font of the selected cell to `Code128` and sets the value to the same value, which will display the barcode.
+This [VBA macro code](Barcode.vba) generates a barcode of the given text or link in a specified cell in MS Excel using the [`Code128`](https://github.com/ZMGarcia03/Barcode-MSExcel/releases/tag/Font) font. The macro prompts the user to select a cell containing the text or link. It then sets the font of the selected cell to `Code128` and sets the value to the same value, which will display the barcode.
 
 ## How to Use:
 
@@ -19,7 +19,7 @@ This [VBA macro code](Barcode.vba) generates a barcode of the given text or link
      - The selected cell will now display the barcode generated from the text or link.
 
 > [!NOTE]
-> This macro provides a simple way to generate barcodes directly in MS Excel. Ensure that the [`Code128`](https://github.com/ZMGarcia03/Barcode-MSExcel/releases/download/Font/code_128.zip) font is installed on your system for the barcode to display correctly.
+> This macro provides a simple way to generate barcodes directly in MS Excel. Ensure that the [`Code128`](https://github.com/ZMGarcia03/Barcode-MSExcel/releases/tag/Font) font is installed on your system for the barcode to display correctly.
 
 ### LICENSE
 This porject is protected under [MIT License](LICENSE). :shipit:
